@@ -1,0 +1,11 @@
+        if iter > m #qrupdate
+            R = qrupdate3!(Sₖ, R, d, iter)
+            iter += 1
+        elseif iter == 1
+            (Q,R) = qr(Sₖ)
+            iter +=1
+        else #qraddcol
+            Sₖ[:,m] = d
+            R      = qraddcol(Sₖ[:,1:m],R,d)
+            iter += 1
+        end#if !normal
