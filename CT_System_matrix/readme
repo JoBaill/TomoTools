@@ -1,0 +1,3 @@
+Here is some bunch of code that can create CT system Matrix. 
+
+I am not the inventor of this method, it was a Scilab interpretation of Siddon's version, that was later translated to Julia.
