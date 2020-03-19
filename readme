@@ -1,0 +1,6 @@
+This repository is made to make the content of my master available online 
+for the very rare people who would have hapened to read a french master thesis on tomography.
+
+I will make my test programs, inputs and algorithms available. 
+
+All the content is working for Julia 0.6.0, which was the most up-to-date version available at that time.
